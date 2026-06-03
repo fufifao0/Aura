@@ -21,6 +21,9 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: var(--espacamento);
+            background: var(--cor-primaria);
+            color: white;
 
 }
 .box1{background-color: brown;}
