@@ -36,3 +36,10 @@ body{
     gap: var(--espacamento);
     padding: var(--espacamento);
 }
+
+.card{
+background-color: whitesmoke;
+padding: 20px;
+text-align: center;
+
+}
