@@ -27,3 +27,12 @@ body{
 
 }
 .box1{background-color: brown;}
+
+/*Grid e cards*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--espacamento);
+    padding: var(--espacamento);
+}
