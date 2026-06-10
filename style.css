@@ -26,7 +26,15 @@ body{
             color: white;
 
 }
-.box1{background-color: brown;}
+.box1{
+    background-color: brown;
+    padding-left: 60px;
+    margin-top: 200px;
+}
+
+.box2{margin-top: 25px;}
+
+.aurafoto{margin-top: 150px;}
 
 /*Grid e cards*/
 
@@ -42,4 +50,32 @@ background-color: whitesmoke;
 padding: 20px;
 text-align: center;
 
+}
+
+.formulario{
+    padding: var(--espacamento);
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.button{
+    background: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.rodape{
+    align-items: center;
+    padding: var(--espacamento);
+    background-color: var(--cor-primaria);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
 }
